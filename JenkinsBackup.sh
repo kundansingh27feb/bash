@@ -10,7 +10,7 @@ backup_date=$(date +%Y-%m-%d)
 FILENAME="Backup_$DATE.tar.gz"
 DEST="$BACKUP_DIR/$FILENAME"
 mount_point="/mnt/Backup"
-server_address="10.110.10.166"
+server_address="NAS_IP"
 share="/mnt/stg-str/stg-bkp"
 
 # Ensure the log directory exists

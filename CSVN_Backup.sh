@@ -14,7 +14,7 @@ repos_daily="/mnt/CsvnBackup/Code_Repos/Csvn/DailyBackup/$backup_date/repositori
 conf_daily="/mnt/CsvnBackup/Code_Repos/Csvn/DailyBackup/$backup_date/conf"
 one_day_ago=$(date --date="yesterday" +%Y%m%d)
 mount_point="/mnt/CsvnBackup/"
-server_address="10.120.11.241"
+server_address="NAS_IP"
 share="/mnt/data/dbprod"
 mkdir -p $mount_point
 target_directory="/mnt/CsvnBackup/Code_Repos/Csvn/DailyBackup/$backup_date"

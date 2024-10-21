@@ -3,7 +3,7 @@
 host=`hostname|cut -f1 -d "."`
 ipaddr=`hostname -I | awk '{print $1}'`
 mount_point="/mnt/CsvnBackup/"
-server_address="10.120.11.241"
+server_address="NAS_IP"
 share="/mnt/data/dbprod/Code_Repos/Csvn/"
 backup_date=`date +%Y-%m-%d`
 last_backup_date=$(date --date="yesterday" "+%Y-%m-%d")
