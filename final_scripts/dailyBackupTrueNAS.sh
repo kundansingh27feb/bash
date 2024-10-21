@@ -28,7 +28,7 @@ type="AEO"
 dbtype="Postgres"
 backuptype="DailyBackup"
 target_directory="$local_backup_dir"
-server_address="10.120.11.241"
+server_address="NAS_IP"
 share="/mnt/data/dbprod"
 day_of_week=$(date +%w)
 mkdir -p "$mount_point"

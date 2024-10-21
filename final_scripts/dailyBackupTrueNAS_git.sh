@@ -3,7 +3,7 @@ mount_point="/var/opt/gitlab/backups/"
 backup_date=`date +%Y-%m-%d`
 last_backup_date=$(date --date="yesterday" "+%Y-%m-%d")
 type="Git"
-server_address="10.110.10.97"
+server_address="NAS_IP"
 share="/mnt/data/dbprod/Code_Repos/Git/"
 mkdir -p $mount_point
 bckreport="/opt/script/DailyBackup/TrueNAS/report.txt"

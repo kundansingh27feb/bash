@@ -29,7 +29,7 @@ type="HWLanding"
 dbtype="Postgres"
 backuptype="DailyBackup"
 target_directory="$local_backup_dir"
-server_address="10.110.10.166"
+server_address="NAS_IP"
 share="/mnt/STR-STG-01/str-stg"
 day_of_week=$(date +%w)
 mkdir -p "$mount_point"
